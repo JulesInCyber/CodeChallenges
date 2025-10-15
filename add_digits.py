@@ -6,3 +6,15 @@ The function should return the product of all digits.
 1234 -> 24
 1111 -> 1
 """
+import sys
+
+number = sys.argv[1]
+
+# number = "1234"
+number_list = list(number)
+
+prod = 1
+for i in number_list:
+    prod = int(i) * prod
+
+print(prod) 
