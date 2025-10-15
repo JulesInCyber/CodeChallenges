@@ -9,8 +9,6 @@ The function should return the product of all digits.
 import sys
 
 number = sys.argv[1]
-
-# number = "1234"
 number_list = list(number)
 
 prod = 1
