@@ -1,2 +1,5 @@
-.py.un~
-.py~
+# VIM Backup files
+*~
+*.swp
+*.swo
+*.swn
