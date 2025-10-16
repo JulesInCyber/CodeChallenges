@@ -7,6 +7,7 @@ The function should return the product of all digits.
 1111 -> 1
 """
 import sys
+from termcolor import colored
 
 # Function
 def multiply_digits(n):
@@ -17,7 +18,10 @@ def multiply_digits(n):
             int_num = int(i)
             product = product * int_num
         except:
-            raise TypeError("Only Integers are allowed!")
+            raise TypeError(colored(
+                "[!] ~ Only Integers are allowed!",
+                "red", 
+                attrs=["bold"]))
     print(product)
 
 
