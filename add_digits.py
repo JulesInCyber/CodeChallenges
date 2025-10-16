@@ -8,11 +8,19 @@ The function should return the product of all digits.
 """
 import sys
 
-number = sys.argv[1]
-number_list = list(number)
+# Function
+def multiply_digits(n):
+    l = list(n)
+    product = 1
+    for i in l:
+        int_num = int(i)
+        product = product * int_num
+    print(product)
 
-prod = 1
-for i in number_list:
-    prod = int(i) * prod
 
-print(prod) 
+if __name__ == '__main__':
+    # Get Command line Argument
+    number = sys.argv[1]
+
+    # Apply function
+    multiply_digits(number)
