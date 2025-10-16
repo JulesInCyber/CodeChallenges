@@ -13,8 +13,11 @@ def multiply_digits(n):
     l = list(n)
     product = 1
     for i in l:
-        int_num = int(i)
-        product = product * int_num
+        try:
+            int_num = int(i)
+            product = product * int_num
+        except:
+            raise TypeError("Only Integers are allowed!")
     print(product)
 
 
