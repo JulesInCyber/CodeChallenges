@@ -1,5 +1,7 @@
 # Challenge 003: Binary Converter
 
+**Difficulty**: Easy &ndash; Medium
+
 ## Task
 
 Write a Program that accepts two parameters. The first parameter should determine
