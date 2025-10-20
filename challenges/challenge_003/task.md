@@ -1,6 +1,7 @@
 # Challenge 003: Binary Converter
 
 **Difficulty**: Easy &ndash; Medium
+
 **Tags**: #binary, #conversion
 
 ## Task

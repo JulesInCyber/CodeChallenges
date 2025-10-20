@@ -1,6 +1,7 @@
 # Challenge 002: Digit Product
 
-**Difficulty**: Easy  
+**Difficulty**: Easy
+
 **Tags**: #math
 
 ## Task
