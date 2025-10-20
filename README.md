@@ -3,6 +3,9 @@
 Welcome to the Code Challenges repository! This repo contains programming problems to sharpen your skills in algorithms and problem solving.
 Each challenge includes a clear problem description and a sample solution to help guide your learning.
 
+> The Challenges are not sorted by category, tags or difficulty
+> Read the `task.md` to see more information about the task
+ 
 ---
 
 ## Repository Structure
