@@ -19,5 +19,6 @@ def tribonacci(pos):
     return t_pos
 
 if __name__ == "__main__":
-    t13 = tribonacci(13)
-    print(t13)
+    tx = input("Enter the position of the Tribonacci Number: ")
+    result = tribonacci(int(tx))
+    print(result)
