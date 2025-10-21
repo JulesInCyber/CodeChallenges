@@ -17,5 +17,7 @@ def tribonacci(pos):
         t1 = t2
         t2 = t_pos
     return t_pos
-    
-print(tribonacci(0))
+
+if __name__ == "__main__":
+    t13 = tribonacci(13)
+    print(t13)
