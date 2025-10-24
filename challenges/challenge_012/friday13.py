@@ -10,6 +10,10 @@ def friday13(month, year):
         return True
     else:
         return False
-    
-friday = friday13(8,2021)
-print(friday)
+
+if __name__ == "__main__":
+    user_month = int(input("Please enter a month: "))
+    user_year = int(input("Please enter a year: "))
+
+    result = friday13(user_month, user_year)
+    print(result)
