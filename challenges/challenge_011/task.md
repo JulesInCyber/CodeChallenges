@@ -1,6 +1,6 @@
 # Challenge 011: String Manipulation I
 
-**Difficulty**: Medium
+**Difficulty**: Easy
 
 ## Task
 
