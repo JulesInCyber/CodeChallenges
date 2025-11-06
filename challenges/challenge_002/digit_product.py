@@ -23,3 +23,6 @@ if __name__ == '__main__':
 
     # Apply function
     multiply_digits(number)
+
+
+# Comment
