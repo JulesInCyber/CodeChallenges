@@ -26,7 +26,7 @@ def decode(binary_string):
 if __name__ == "__main__":
     if operation == "encode":
         result = encode(number)
+        print(result)
     elif operation == "decode":
         result = decode(number)
-
-print(result)
+        print(result)
